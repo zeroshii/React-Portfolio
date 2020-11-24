@@ -1,62 +1,99 @@
-# Responsive Portfolio
+# Unit 20 React Homework: React Portfolio
 
-This is an exercise of developing web applications that will render well on a variety of screen sizes and devices by adding responsive design.
+Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
 
-See the deployed application here: [Responsive Portfolio](https://zeroshii.github.io/Responsive-Portfolio/portfolio.html)
-
-![screenshot](https://github.com/zeroshii/Responsive-Portfolio/blob/master/assets/screenshot.png)
-
-## Getting Started
-
-We will use the Bootstrap CSS Framework to create a mobile responsive portfolio. Be sure to visit the documentation to copy-paste the stylesheet &lt;link&gt; into your &lt;head&gt;and the necessary JS &lt;script&gt;s before the closing &lt;/body&gt; tag to enable them:
-
-```
-https://getbootstrap.com/docs/4.0/getting-started/introduction/
-```
-## Components
-
-The following HTML pages including a personal CSS stylesheet were created: 
-```
-https://zeroshii.github.io/Responsive-Portfolio/index.html
-https://zeroshii.github.io/Responsive-Portfolio/portfolio.html
-https://zeroshii.github.io/Responsive-Portfolio/contact.html
-```
+If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
 
 ## Requirements
 
-The portfolio site is developed with the following:
+* Updated portfolio featuring 6 total projects
 
-* A navbar
-* A responsive layout
-* Responsive images
-* Valid and semantic HTML
-* Working links
-* Utilization of Bootstrap components and grid system
+* Use React
 
-In addition, personalized information must be included such as name, bio, images, and links to social media.
+* A `Header` component that appears on multiple pages
 
-## Technologies Used
-* HTML
-* CSS
-* Bootstrap
+* A single `Project` component that will be used multiple times on a single page 
 
-## Process
+* Navigation with React Router, dynamic rendering, or another third part router
 
-Web searching, w3schools, as well as the Bootstrap website proved to be excellent resources for coding reference. 
+* A `Footer` component that appears on multiple pages
 
-When building a consistent navbar on all pages, a button class of `navbar-toggler` and its attributes were implemented, thereby allowing the navigation links to be collapsed on smaller screens. The links were sorted as unordered list items belonging to the parent section with the class `collapse navbar-collapse`.
+* Update GitHub profile with pinned repositories featuring those same projects
 
-Three section class `row`s were created under the main class `container` on portfolio.html. Each row consists of two figure tags with the class `col-sm` for columns. An image element is placed in each column except for the last.
+* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
 
-The img class attribute `img-fluid max-width: 100%` must be included to ensure the images are responsive. As a result, images will scale and fit accordingly to screen size. 
+## Grading
 
-A `form-group` containing the input fields of `text` for name, and `email`, as well as a `textarea` tag and a `submit` button were created on contact.html as per instruction.
-
-## Credit
-Developer, Garman Kwan: https://github.com/zeroshii/
-
-## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+| Requirement    | Weight |
+| -------------- | ------ |
+| Portfolio      | 90%    |
+| GitHub Profile | 10%    |
 
 
+## Instructions
 
+* [Updated Portfolio](#updated-portfolio)
+
+* [Design](#design)
+
+* [React](#react)
+
+* [Updated LinkedIn Profile](#updated-linkedin-profile)
+
+### Updated Portfolio
+
+Your updated site should still have all of the content it previously had:
+
+* Your name
+
+* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+
+* A link to a PDF of your resume with updated projects
+
+* A list of projects. For each project, make sure you have the following:
+
+  * Project title
+
+  * Link to the deployed version
+
+  * Link to the GitHub repository
+
+  * GIF or screenshot of the deployed application
+
+
+#### Design
+
+As with the previous portfolio homework, "good" design is subjective. Your site should look
+"polished." Here are a few guidelines on what that means:
+
+* Mobile-first design
+
+* Choose a color palette for your site so it doesn't just look like
+the default bootstrap theme or an unstyled HTML site. You may we
+
+* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
+
+* If you want to go above and beyond, try using animations and react component libraries. Note 
+that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
+
+### React
+
+Additionally, this new portfolio should be created using React.
+
+At a minimum, your portfolio should include the following:
+
+* A `Header` component that appears on multiple pages
+
+* A single `Project` component that will be used multiple times on a single page 
+
+* Navigation with React Router, dynamic rendering, or another third part router
+
+* A `Footer` component that appears on multiple pages
+
+
+### Updated LinkedIn Profile 
+
+Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
+
+- - -
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
