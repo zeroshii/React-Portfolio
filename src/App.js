@@ -6,7 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import { HashRouter, Route, Switch} from "react-router-dom";
-import "./components/style.css"
+import './components/style.css';
 
 
 function App() {
