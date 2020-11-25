@@ -3,7 +3,7 @@
 ## Description
 My online portfolio built using React and components.
 
-The deployed app can be seen here: [React Portfolio]()
+The deployed app can be seen here: [React Portfolio](https://zeroshii.github.io/React-Portfolio/)
 
 
 
