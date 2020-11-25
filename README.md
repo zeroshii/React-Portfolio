@@ -5,6 +5,8 @@ My online portfolio built using React and components.
 
 The deployed app can be seen here: [React Portfolio](https://zeroshii.github.io/React-Portfolio/)
 
+![screenshot](https://github.com/zeroshii/React-Portfolio/blob/main/public/assets/react-portfolio.jpg)
+
 
 
 ## Table of Contents
