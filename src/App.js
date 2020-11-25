@@ -12,13 +12,16 @@ import './components/style.css';
 function App() {
     return (
         <HashRouter basename={process.env.PUBLIC_URL}>
+            <div className = "Appbg">
             <Header />
             <Switch>
                 <Route exact path = '/index'><About /></Route>
                 <Route exact path = '/contact'><Contact /></Route>
                 <Route exact path = '/portfolio'><Portfolio /></Route>
             </Switch>
+            
             <Footer />
+            </div>
         </HashRouter>
     )
 }
