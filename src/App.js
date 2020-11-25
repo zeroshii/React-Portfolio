@@ -15,8 +15,8 @@ function App() {
             <Header />
             <Switch>
                 <Route exact path = '/index'><About /></Route>
-                <Route path = '/contact'><Contact /></Route>
-                <Route path = '/portfolio'><Portfolio /></Route>
+                <Route exact path = '/contact'><Contact /></Route>
+                <Route exact path = '/portfolio'><Portfolio /></Route>
             </Switch>
             <Footer />
         </HashRouter>

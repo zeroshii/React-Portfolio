@@ -11,9 +11,10 @@ function Header () {
        
         <section className="collapse navbar-collapse" id="navbarToggler">
             <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-                <NavLink to="/index"  activeClassName="active">About</NavLink>
-                <NavLink to="/contact" activeClassName="active">Contact</NavLink>
-                <NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink>
+                
+            <li className="nav-item"><NavLink to="/index"  className="nav-link" activeClassName="active">About</NavLink></li>
+            <li className="nav-item"><NavLink to="/contact" className="nav-link" activeClassName="active">Contact</NavLink></li>
+            <li className="nav-item"><NavLink to="/portfolio" className="nav-link" activeClassName="active">Portfolio</NavLink></li>
             </ul>
         </section>
     </nav>

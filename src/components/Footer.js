@@ -1,4 +1,4 @@
-function Footer(props) {
+function Footer() {
     return (
         <footer class="footer" >
             <a href="https://www.linkedin.com/in/garman-kwan-08283871/" target="_blank" rel="noreferrer">LinkedIn</a>

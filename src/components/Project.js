@@ -1,4 +1,4 @@
-function Project (props) {
+function Project () {
     return (
         <footer class="footer" >
             <a href="https://www.linkedin.com/in/garman-kwan-08283871/" target="_blank">LinkedIn</a>
