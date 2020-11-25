@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 function Header () {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -5,19 +7,13 @@ function Header () {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <a className="navbar-brand" href="#">Garman Kwan</a>
+        <NavLink to="/index" className="navbar-brand">Garman Kwan</NavLink>
        
         <section className="collapse navbar-collapse" id="navbarToggler">
             <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li className="nav-item">
-                <a className="nav-link" href="index.html">About <span className="sr-only">(current)</span></a>
-                </li>
-                <li className="nav-item">
-                <a className="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li className="nav-item">
-                <a className="nav-link" href="contact.html">Contact</a>
-                </li>
+                <NavLink to="/index"  activeClassName="active">About</NavLink>
+                <NavLink to="/contact" activeClassName="active">Contact</NavLink>
+                <NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink>
             </ul>
         </section>
     </nav>
